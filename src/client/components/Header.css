@@ -1,0 +1,55 @@
+.ot-header {
+  margin-top: 40px;
+  max-width: 600px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ot-header-logo {
+  display: flex;
+}
+
+.ot-header-logo a{
+  font-weight: 500;
+}
+
+.ot-header-logo img {
+  margin: 2px;
+  width: 14px;
+  height: 14px;
+}
+
+.ot-header-welcome {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+.ot-header-welcome > *:first-child {
+  margin-bottom: 3px;
+  font-size: 14px;
+}
+
+.ot-header-welcome > *:nth-child(2) {
+  margin-top: 2px;
+}
+
+.ot-header-feedback {
+  position: relative;
+}
+
+.ot-header-profile {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+}
+
+.ot-header-right {
+  position: absolute;
+  top: 26px;
+  right: 30px;
+  width: 150px;
+}

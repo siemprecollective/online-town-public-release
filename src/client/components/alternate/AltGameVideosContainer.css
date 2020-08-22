@@ -1,0 +1,15 @@
+.alt-videos-container {
+  width: 625px;
+  display: flex;
+  margin-top: 10px;
+  flex-wrap: wrap;
+  height: 400px;
+  overflow-y: auto;
+}
+
+.videos-max-connections {
+  width: 625px;
+  display: flex;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}

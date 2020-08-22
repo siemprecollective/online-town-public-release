@@ -1,0 +1,32 @@
+#self-video {
+  width: 140px;
+  padding: 0px;
+  border-radius: 16px;
+  border-style: solid;
+  border-width: 3px;
+  transform: scale(-1, 1);
+}
+
+.name-input {
+  border: none;
+  width: 140px;
+  padding: 8px;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.self-video-container {
+  position: relative;
+}
+
+.selfvideo-stream-controls {
+  position: absolute;
+  top: 0;
+  width: 140px;
+  margin-left: 3px;
+  border-radius: 16px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

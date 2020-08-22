@@ -1,0 +1,29 @@
+.ot-gamecomponent-closed-message {
+  display: flex;
+  width: 600px;
+  height: 400px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+}
+
+.ot-gamecomponent-disconnect-message {
+  color: red;
+  width: 500px;
+  margin: 15px;
+  margin-bottom: 20px;
+}
+
+.ot-link-container {
+  position: absolute;
+  width: 115px;
+  left: -190px;
+}
+
+.ot-link-container p{
+  padding-bottom: 4px;
+}
+
+.ot-link-container a{
+  font-weight: 500;
+}

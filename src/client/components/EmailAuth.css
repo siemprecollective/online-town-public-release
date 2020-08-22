@@ -1,0 +1,32 @@
+.ot-email-auth-large-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 700px;
+  height: 500px;
+}
+
+.ot-email-auth-container {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 165px;
+  justify-content: space-around;
+}
+
+.ot-auth-submit-button {
+  width: 120px;
+  height: 35px;
+  font-size: 16px;
+  border: solid 1px black;
+  color: black;
+  background-color: white;
+  border-radius: 7px;
+  margin-left: 67px;
+}
+
+.ot-email-auth-input {
+  font-size: 20px;
+  border-style: solid;
+  border-width: 1px;
+}

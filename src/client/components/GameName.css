@@ -1,0 +1,31 @@
+.name-container {
+  margin-top: 3px;
+  margin-bottom: 3px;
+  white-space: nowrap;
+  max-width: 150px;
+  height: 25px;
+  overflow: hidden;
+}
+
+.name-pic {
+  width: 25px;
+  height: 25px;
+  border-radius: 12px;
+}
+
+.name-color {
+  min-width: 12px;
+  height: 12px;
+  width: 12px;
+  border-radius: 6px;
+  margin-top: 2px;
+}
+
+.name-text {
+  margin-left: 10px;
+}
+
+.name-selected {
+  border: 1px solid;
+  border-radius: 5px;
+}

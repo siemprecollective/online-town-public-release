@@ -1,0 +1,9 @@
+.screen-video-container {
+  position: absolute;
+  top: 150px; 
+}
+
+.screen-video-container video {
+  height: 400px;
+  width: 600px;
+}

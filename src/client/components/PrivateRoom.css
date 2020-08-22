@@ -1,0 +1,13 @@
+.ot-privateroom-overlay {
+  width: 100%;
+  background-color: white;
+  z-index: 1;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ot-privateroom-overlay p {
+  margin: 15px;
+}

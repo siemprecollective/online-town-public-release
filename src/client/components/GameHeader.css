@@ -1,0 +1,70 @@
+.ot-game-header {
+  margin: 20px;
+  max-width: 600px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.ot-game-header-logo {
+  display: flex;
+}
+
+.ot-game-header-logo img {
+  margin: 2px;
+  width: 14px;
+  height: 14px;
+}
+
+.ot-game-header-logo a{
+  font-weight: 500;
+}
+
+.ot-game-header-left {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 200px;
+}
+
+.ot-game-header-left > *:first-child {
+  margin-bottom: 3px;
+  font-size: 14px;
+}
+
+.ot-game-header-left > *:nth-child(2) {
+  margin-top: 2px;
+}
+
+.ot-game-header-left-links{
+  margin-top: 30px;
+}
+
+.ot-game-header-left-links p{
+  font-size: 16px;
+  line-height: 16px;
+  font-family: Calibri;
+  margin: 0px;
+}
+
+.ot-game-header-left-links > div{
+  margin-top: 10px;
+}
+
+.ot-game-header-right {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 135px;
+}
+
+.ot-game-header-right > * {
+  margin: 10px;
+}
+
+.ot-game-header-feedback {
+  position: relative;
+}
+

@@ -1,0 +1,28 @@
+.ot-chat-container {
+  position: absolute;
+  top: 5;
+  left: -191;
+  width: 175px;
+  height: 391px;
+  border: 1px solid #e7e7e7;
+  border-radius: 10px;
+}
+
+.ot-chat-message-container {
+  overflow-y: auto;
+  padding: 7px;
+}
+
+.ot-chat-input {
+  width: 100%;
+  padding: 5px;
+  outline: none;
+  border: none;
+  border-top: solid 1px #c7c7c7;
+  font-size: 16px;
+}
+
+.ot-chat-message {
+  line-height: 18px;
+  word-wrap: break-word;
+}

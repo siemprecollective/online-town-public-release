@@ -1,0 +1,22 @@
+.alt-room-title-container {
+  position: relative;
+}
+
+.alt-room-title {
+  width: 100%;
+  position: absolute;
+  left: 0;
+}
+
+.alt-mod-message-container {
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+  padding: 7px;
+  background: lightgray;
+  border-radius: 5px;
+}
+
+#report-abuse-header {
+  color: black;
+}

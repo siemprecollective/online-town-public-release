@@ -1,0 +1,34 @@
+.alt-name-container {
+  margin-top: 3px;
+  margin-bottom: 3px;
+  white-space: nowrap;
+  max-width: 150px;
+  height: 25px;
+  overflow: hidden;
+}
+
+.alt-name-pic {
+  width: 25px;
+  height: 25px;
+  border-radius: 12px;
+}
+
+.alt-name-color {
+  min-width: 12px;
+  height: 12px;
+  width: 12px;
+  border-radius: 6px;
+  margin-top: 2px;
+  margin-left: 5px;
+}
+
+.alt-name-text {
+  margin-right: 6px;
+  overflow: hidden;
+  width: 78px;
+}
+
+.alt-name-selected {
+  border: 1px solid;
+  border-radius: 5px;
+}

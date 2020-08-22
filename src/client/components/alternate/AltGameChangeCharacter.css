@@ -1,0 +1,19 @@
+#change-character {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  position: absolute;
+  left: -88;
+  bottom: -110;
+}
+
+#change-character img {
+  object-fit: cover;
+  object-position: 0 0;
+  width: 20px;
+  height: 20px;
+  margin: 2px 0;
+}
+
+#change-character .not-selected {
+  opacity: 0.5;
+}

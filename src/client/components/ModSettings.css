@@ -1,0 +1,44 @@
+.ot-modsettings {
+  position: absolute;
+  top: 0; 
+  right: 0;
+  background-color: white;
+  z-index: 98;
+  border-radius: 10px;
+  border: 1px solid #d1d1d1;
+  padding: 10px;
+}
+
+.ot-modsettings > * {
+  margin: 5px 0px;
+}
+
+.ot-modsettings input {
+  flex: 1;
+  border: 1px solid darkgray;
+  border-radius: 3px;
+}
+
+.ot-modsettings button {
+  padding: 3px;
+}
+
+.ot-modsettings-banlist-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ot-modsettings-fadeout {
+  padding: 3px;
+  animation: fadeout 3.1s;
+}
+
+@keyframes fadeout {
+  0% {
+    opacity: 1.0;
+  }
+  100% {
+    opacity: 0.0;
+    display: none;
+  }
+}

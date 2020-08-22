@@ -1,0 +1,26 @@
+.ot-invitelink {
+}
+
+.ot-invitelink-link {
+  background-color: white;
+  border: 1px solid #d1d1d1;
+  border-radius: 10px;
+  padding: 20px;
+  position: absolute;
+  right: 80px;
+  z-index: 99;
+}
+
+.ot-invitelink-link > div {
+  margin-bottom: 5px;
+}
+
+
+.ot-invitelink-link input {
+  border: 1px solid darkgray;
+  border-radius: 6px;
+}
+
+.ot-invitelink-close {
+  color: red;
+}

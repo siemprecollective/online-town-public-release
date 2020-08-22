@@ -1,0 +1,180 @@
+.writing p{
+  font-size: 15px;
+  font-weight: 400;
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 25px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+hr{
+  border-width: 0.5px;
+  border-style: solid;
+  margin: 20px auto;
+}
+
+#pre-title{
+  font-size: 12px;
+  font-weight:400;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0px;
+  margin-bottom: 4px;
+  margin-right: 8px;
+}
+
+#title{
+  font-size: 24px;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0px;
+  padding-left: 4px;
+}
+
+#team-names{
+  font-size: 15px;
+  font-weight: 400;
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 25px;
+  margin-top: 15px;
+  margin-bottom: 20px; 
+}
+
+#hello{
+  color: #8000FF;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+#hello:hover {
+  color: #c488ff;
+}
+
+#yes-no-message p{
+  margin-top: 12px;
+  margin-bottom: 0px;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#yes-no-message span{
+  font-size: 12px;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#learn-more{
+  color: white;
+  background-color: #ff8a00;
+  border-radius: 10px;
+  width: 130px;
+  height: 34px;
+  margin: 20px auto 20px;
+  cursor: pointer;
+}
+
+#learn-more:hover{
+  color: white;
+}
+
+.button-text {
+  color: white;
+  padding-top: 5px;
+  font-weight: 400;
+  font-size: 14;
+}
+
+#email-submit {
+  width: 250px;
+  margin: 10px auto 40px;
+}
+
+#email-submit button{
+  height: 24px;
+  padding: 2px 6px 2px 6px;
+  background-color: white;
+  border-radius: 6px;
+  border: 1px solid black;
+  color: black;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+}
+
+#email-submit input {
+  background-color: #ffffff;
+  border: 1px solid #dedede;
+  border-radius: 4px;
+  height: 25px;
+  padding-left: 8px;
+  margin-right: 5px;
+  width: 150px;
+  font-style: italic;
+  font-size: 12px;
+  width: 150px;
+}
+
+#email-input {
+  outline: none;
+  height: 24px;
+  border: 1px solid #b5b5b5;
+  border-radius: 10px;
+  margin: 5px;
+  padding-left: 8px;
+}
+
+#friendship{
+  max-width: 94%;
+  margin-left: 0px;
+  margin-top: -70px;  
+}
+
+#friendship-container{
+  width: 278px;
+  height: 180px;
+  overflow: hidden;
+  margin: auto;
+  margin-bottom: 30px;
+  margin-top: 40px;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  font-weight: 600;
+  cursor: default;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 50px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -25px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.tooltiptext a:first-of-type{
+  margin-right: 10px;
+}
+
+.ot-header-right {
+  position: absolute;
+  top: 26px;
+  right: 30px;
+  width: 150px;
+}

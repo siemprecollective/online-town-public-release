@@ -1,0 +1,141 @@
+.create-private .invalid-field{
+  color: #ff7272;
+  box-shadow: 0px 1px 6px 0px #ff8585 inset;
+}
+
+.create-private .invalid-field::placeholder {
+  color: #ff7272;
+}
+
+.create-private .invalid-field:hover {
+  color: #ff4747;
+  border: 1px solid #ff4747;
+}
+
+.create-private .invalid-field:focus {
+  outline: none;
+  border: 1px solid #fb0000;
+  box-shadow: none;
+  color: red;
+}
+
+.create-private .valid-field{
+  color: #54ab54;
+  box-shadow: 0px 1px 6px 0px #54ab54 inset;
+}
+
+.create-private .valid-field:hover {
+  color: #239a23;
+  border: 1px solid #239a23;
+}
+
+.create-private .valid-field:focus {
+  outline: none;
+  border: 1px solid green;
+  box-shadow: none;
+  color: green;
+}
+
+.create-private p{
+  font-family: Ubuntu, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 300;
+  text-indent: 20px;
+  margin: 15px 0px;
+}
+
+.preview-buttons p{
+  text-indent: 0px;
+}
+
+.create-private h2 {
+  font-size: 22px;
+  font-weight: 500;
+  font-family: Montserrat, sans-serif;
+}
+
+.create-private h3 {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: Montserrat, sans-serif;
+}
+
+.space-container {
+  margin-top: 10px;
+  margin-bottom: -5px;
+  font-size: 20px;
+}
+
+.indented {
+  margin-left: 20px;
+}
+
+#create-private-container .green {
+  font-weight: bold;
+}
+
+.create-private input {
+  border: none;
+  border-width: 0px;
+  font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  font-size: 12px;
+  padding: 8px;
+  padding-left: 14px;
+  border-radius: 6px;
+  border: 1px solid white;
+  color: #4a4a4a;
+  box-shadow: 0px 1px 6px 0px #d0d0d0 inset;
+}
+
+.create-private input:focus {
+  outline: none;
+  border: 1px solid black;
+  box-shadow: none;
+  color: black;
+}
+
+.create-private input:hover {
+  color: black;
+  border: 1px solid gray;
+}
+
+
+
+.map-container {
+  align-items: center;
+  margin-left: 15px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.map-preview {
+  height: 150px;
+  width: 150px;
+  margin-bottom: 5px;
+}
+
+.grayscale {
+  filter: grayscale(70%);
+  opacity: 70%;
+}
+
+.grayscale:hover{
+  filter: grayscale(30%);
+  opacity: 90%;
+}
+
+.checkmark {
+  position: absolute;
+  left: -30px;
+  top: 2px;
+}
+
+.submit-button {
+  width: 134px;
+  height: 36px;
+  font-size: 16px;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}

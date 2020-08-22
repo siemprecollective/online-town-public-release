@@ -1,0 +1,94 @@
+body {
+  padding: 0px 20px;
+  font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+h3 {
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+a {
+  color: black;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #a5a5a5;
+}
+
+.action:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.vertical-center-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.vertical-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.horizontal-container {
+  display: flex;
+  align-items: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.logo-icon {
+  height: 30px;
+  margin-right: 10px;
+}
+
+.green {
+  color: #01a200;
+}
+
+.red {
+  color: red;
+}
+
+.private-color{
+  color: #08a3b8;
+}
+
+.public-color{
+  color: #67a600;
+}
+
+.mobileShow {
+  display: none;
+}
+
+.mobileHide {}
+
+.dark-mode{
+  background-color: #272727;
+  color: white;
+}
+
+.dark-mode a{
+  color: white;
+}
+
+
+/* Smartphone portrait and landscape */
+@media only screen  
+and (max-device-width: 480px) {
+  .mobileShow {
+    display: block;
+  }
+
+  .mobileHide {
+    display: none !important;
+  }
+}

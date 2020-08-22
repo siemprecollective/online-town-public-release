@@ -1,0 +1,42 @@
+.video-container {
+  position: relative;
+}
+
+.name-video-container {
+  max-width: 140px;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-top: 2px;
+}
+
+video {
+  width: 140px;
+  padding: 0px;
+  border-radius: 16px;
+  margin: 0px 3px;
+  border-style: solid;
+  border-width: 3px;
+}
+
+.video-menu-container {
+  position: absolute;
+  bottom: 26px;
+  left: 3px;
+  width: 150;
+}
+
+.video-menu-icon-container {
+  position: absolute;
+  bottom: 5px;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+}
+
+.video-menu-icon {
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  width: 30px;
+  height: 30px;
+}

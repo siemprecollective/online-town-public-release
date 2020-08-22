@@ -1,0 +1,30 @@
+.menu-horizontal-container {
+  display: flex;
+  align-items: center;
+  margin: 3px 0;
+}
+
+.menu-video-icon {
+  margin-left: 14px;
+  margin-right: 10px;
+}
+
+.menu-disable-video-icon {
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.menu-mic-icon {
+  margin-left: 16px;
+  margin-right: 15px;
+}
+
+.menu-disable-mic-icon {
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.menu-ban-icon {
+  margin-left: 14px;
+  margin-right: 12px;
+}

@@ -1,0 +1,66 @@
+.ot-profile-modal {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px 10px;
+}
+
+.dark-mode .ot-profile-modal {
+  background-color: #272727;
+  color: white;
+}
+
+.ot-create-profile-modal {
+  position:absolute;
+  right: 0px;
+  width: 320px;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 10px;
+  z-index: 2;
+}
+
+.ot-profile-submit-button {
+  text-align: left;
+  font-size: 16px;
+  font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  color: black;
+}
+
+.ot-profile-back-button {
+  color: black;
+  font-size: 16px;
+}
+
+.ot-profile-content {
+  margin-top: 10px;
+}
+
+#profile-email-input {
+  margin-top: 10px;
+  border: 1px solid black;
+  padding: 2px;
+  width: 100%;
+}
+
+.recent-room-container {
+  margin: 2px 0;
+  display: flex;
+  font-size: 18px;
+  justify-content: space-between;
+}
+
+.recent-room-name {
+  font-size: 12px;
+}
+
+.recent-room-date {
+  font-size: 10px;
+  color: #aeaeae;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+.ot-profile-modal p{
+  margin: 0;
+}

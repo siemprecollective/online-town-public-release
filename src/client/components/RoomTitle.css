@@ -1,0 +1,33 @@
+.room-title-container {
+  position: relative;
+  height: 130px;
+  width: 600px;
+}
+
+.room-title {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 20;
+}
+
+.mod-message-container {
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+  padding: 7px;
+  background: lightgray;
+  border-radius: 5px;
+}
+
+#report-abuse-header {
+  color: black;
+}
+
+@media only screen  
+  and (min-device-width: 320px)
+  and (max-device-width: 480px) {
+  .room-title-container {
+    width: 360px;
+  }
+}
